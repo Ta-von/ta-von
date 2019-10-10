@@ -1,3 +1,4 @@
+<stye>
 html {
 	box-sizing: border-box;
 }
@@ -9,6 +10,47 @@ body {
 	line-height: 1.5;
 	background: #F2F2F2;
 	color:#323232;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+H2{
+	font-family:"times new roman";
+	position:centre;
+}
+
+.sidenav {
+  width: 120px;
+  position: top;
+  z-index: 1;
+  top: 20;
+  left: 10;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 8px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 140px; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 img{

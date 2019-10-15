@@ -1,0 +1,144 @@
+.header {
+  grid-area: header;
+  grid-gap: 20px;
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+background-color: purple;
+color:white;
+padding: 50px;
+font-size: 150%;
+text-align: center;
+}
+
+.content {
+  border: 2px solid white;
+  position: relative;
+  top: 50px;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 50 px;
+  margin-bottom: 50px;
+}
+
+
+.fa-facebook-square {
+ color: #3b5998;
+} 
+
+.fa-linkedin-square {
+color: #0077b5; 
+}
+
+.fa-twitter-square {
+color: #1da1f2; 
+}
+
+.fa-instagram {
+color: #fb3958; 
+}
+
+.recipe {
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+width: 200px;
+}
+
+img {
+width: 25%;
+height: auto;
+} 
+
+.img-circle {
+width: 150px;
+height: 150px;
+display: block;
+border-radius: 100px;
+margin: auto;
+margin-top: 10px;
+
+}
+
+.item1 { grid-area: header; }
+.item2 { 
+grid-area: menu; 
+background-color: #D3D3D3;
+padding: 10px;
+justify-self: left;
+position: relative;
+left: 95px;
+
+}
+.i3 { 
+grid-area: main; 
+justify-self: right;
+position: relative;
+left: 100px;
+margin:auto;
+margin-right: 100px;
+}
+
+.grid-container {
+display: grid;
+grid-template-areas:
+  'header header header header header header'
+  '.... menu menu main main main'
+  '.... menu menu main main main';
+grid-gap: 15px;
+padding: 10px;
+}
+
+hr.a { 
+border-style: solid;
+}
+
+.contain-flex {
+display:flex;
+align-items: center;
+flex-direction: row;
+float: left;
+
+}
+
+
+#container h3,
+#container p {
+  display: inline;
+  vertical-align: top;
+  
+  font-weight:bold;
+}
+
+* {
+margin:0;
+padding:0
+}
+ul {
+list-style-type: disc;
+position:relative;
+}
+ul.skills {
+float:left;
+width:450px;
+margin:20px;
+}
+ul.skills li {
+width:150px;
+}
+ul.skills ul{margin-bottom:20px}
+ul.skills ul ul {
+position:absolute;
+top:0;
+left:170px;
+width:150px;
+}
+
+.sl {
+line-height: 30px;
+}
+
+.s2 {
+line-height: 40px;
+}
+

@@ -1,6 +1,5 @@
-<stye>
-html {
-	box-sizing: border-box;
+
+html {	box-sizing: border-box;
 }
 *,*:before,*:after {
 	box-sizing: inherit;
@@ -16,12 +15,15 @@ body {
 }
 H2{
 	font-family:"times new roman";
-	position:centre;
+	text-align:centre;
+}
+h7{
+text-align: left;
 }
 
 .sidenav {
   width: 120px;
-  position: top;
+  float: left;
   z-index: 1;
   top: 20;
   left: 10;
@@ -30,6 +32,8 @@ H2{
   padding-top: 8px;
 }
 
+.sidenav{
+font-weight: bold;
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
